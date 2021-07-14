@@ -1,0 +1,11 @@
+spring:
+  config:
+    import:
+      - configtree:/Users/Nidhal/IdeaProjects/playgrounds/configtree-actuator-demo/src/main/resources/configtree/
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
